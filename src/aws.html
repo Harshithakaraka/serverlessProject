@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrap.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="cotainer">
+        <h1 class="text-conatiner">
+            AWS S3 Storage File CRUD Operations
+        </h1>
+        <h2>Upload Files</h2>
+        <div class="form-group">
+            <input type="file" class="form-control" id=""fileInput required/>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-danger btn-block">
+                Upload
+            </button>
+        </div>
+        <h2>Upload Files</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Size</th>
+                    <th>Download</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="http://sdk.amazonaws.com/js/aws-sdk-2.932.0.min.js"></script>
+<script src="script.js"></script>
+</html>

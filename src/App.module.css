@@ -1,0 +1,94 @@
+/* App.module.css */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:  #bf97c5e4; /* Lighter background color without transparency */
+}
+
+.container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px 0px #874787;
+  max-width: 600px;
+  background-color: #d7bfe4fa; /* Darker background color for the container content */
+}
+
+.heading {
+  color: #1E1F33; /* Light text color for better contrast */
+  margin-bottom: 30px;
+  font-size: 1.75rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+input[type="file"] {
+  margin-bottom: 25px;
+  padding: 12px 20px;
+  border: 2px dashed #302a2a;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="file"]:hover {
+  background-color: #e0e0e0;
+  border-color: #888;
+}
+
+.uploadButton {
+  padding: 10px 30px;
+  background-color: #0d5ec9bf;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+.uploadButton:hover {
+  background-color: rgba(224, 96, 50, 0.811);
+  transform: translateY(-3px);
+}
+
+.filesContainer {
+  width: 80%;
+  margin: 20px auto; /* Adjusted margin for centering */
+}
+
+.fileTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fileTable th,
+.fileTable td {
+  border: 1px solid #252121;
+  padding: 8px;
+  text-align: left;
+  background-color: #9d994200; /* Background color for table cells */
+}
+
+.fileTable th {
+  background-color: #3225257b;
+}
+
+.fileTable tbody tr:nth-child(even) {
+  background-color: #2a232332;
+}
+
+.fileTable tbody tr:hover {
+  background-color: #971aa59c;
+}
+
+.fileTable tbody tr:hover td {
+  color: #312c2c;
+}
